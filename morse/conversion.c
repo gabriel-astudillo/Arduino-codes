@@ -6,6 +6,10 @@ char* morseLetras[] = {
 
 int retardoPunto = 200;
 int retardoRaya  = retardoPunto*3;
+int retardoEspacio = retardoPunto*4;
+
+int pinMorse = 8;
+int pinEspacio = 7;
 
 void setup() {
   //Configurar pines de salida
