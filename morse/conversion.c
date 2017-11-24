@@ -57,6 +57,11 @@ void secuencia(String secuenciaMorse){
 
 void parpadeoPuntoRaya(char puntoRaya){
   //Completar código adecuadamente
+  
+  
+  //Espera un tiempo equivalente a
+  //un punto para el siguiente punto/raya
+  delay(retardoPunto);
 }
 
 void parpadeoEspacio(){
