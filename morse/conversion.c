@@ -45,8 +45,9 @@ void loop() {
 }
 
 
-void secuencia(char* secuenciaMorse){
+void secuencia(String secuenciaMorse){
   //Completar código adecuadamente
+  int largo = secuenciaMorse.length();
 
 
 }
