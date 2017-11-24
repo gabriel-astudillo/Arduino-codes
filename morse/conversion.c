@@ -34,19 +34,22 @@ void loop() {
     Serial.print(" ");
     if(ch_valor == 32){
       Serial.println("Espacio");
+      //Agegar funcion
     }
     else{
       ch_morse = morseLetras[ch_valor - 97];
       Serial.println(ch_morse);
+      //Agegar funcion
     }
-
-   
   }
 }
 
 
 void secuencia(String secuenciaMorse){
   //Completar código adecuadamente
+  //Llama en forma iterativa a la función
+  //parpadeoPuntoRaya()
+  
   int largo = secuenciaMorse.length();
 
 
